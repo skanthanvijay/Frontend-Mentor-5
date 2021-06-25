@@ -1,0 +1,127 @@
+/* CSS Elements */
+
+body {
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Logo & Illustration */
+
+.container {
+  padding: 5.3% 8%;
+  overflow: hidden;
+}
+
+.logo {
+  position: relative;
+  right: 25.3%;
+  width: 40%;
+  height: auto;
+  margin-bottom: 8%;
+  margin-top: 2.7%;
+}
+
+.illustration {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Buttons */
+
+.register-btn {
+  margin-top: 10px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  border-style: none;
+  -webkit-box-shadow: 0 1px 3px black;
+  -moz-box-shadow: 0 1px 3px black;
+  box-shadow: 0 1px 3px black;
+  color: 	#674baf;
+  font-size: 16px;
+  background: #ffffff;
+  padding: 15px 80px 15px 80px;
+  text-decoration: none;
+}
+
+.register-btn:hover {
+  background: #e882e8;
+  color: white;
+  text-decoration: none;
+}
+
+.media-btn {
+  color: white;
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  background:	#674baf;
+}
+
+.media-btn:hover {
+  color: #e882e8;
+  border-color: #e882e8;
+}
+
+
+
+/* Media Query for Desktop */
+
+@media (min-width: 1000px) {
+
+  body {
+    background-image: url("../images/bg-desktop.svg");
+    text-align: left;
+    overflow: hidden;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    margin-bottom: 6%;
+  }
+
+  .container {
+    padding: 4% 2% 3% 4%;
+    display: inline-block;
+    width: 40%;
+  }
+
+  .logo {
+    right: 0;
+  }
+
+  .text-box {
+    position: relative;
+    bottom: 100px;
+  }
+
+  .social-box {
+    position: absolute;
+    bottom: 10px;
+    right: -265px;
+  }
+
+  .footer {
+    position: relative;
+    bottom: -210px;
+  }
+
+}
